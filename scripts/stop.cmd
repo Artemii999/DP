@@ -4,5 +4,5 @@ taskkill /f /im RankCalculator.exe
 
 taskkill /f /im EventsLogger.exe
 
-cd ..\..\
+cd ..\nginx\
 nginx -s stop

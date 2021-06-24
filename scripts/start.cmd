@@ -8,4 +8,4 @@ start "RankCalculator2" /d ..\RankCalculator\ dotnet run --no-build
 start "EventsLogger1" /d ..\EventsLogger\ dotnet run --no-build
 start "EventsLogger2" /d ..\EventsLogger\ dotnet run --no-build
 
-start /d ..\..\ nginx.exe 
+start /d ..\nginx\ nginx.exe 
